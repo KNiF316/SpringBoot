@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div class="container mt-5" style="background-color:#D3D3D3;">
+		<h1 align="center" style="color:red; font-weight:bold;">YOUR RESULTS:</h1>
+		
+		
+		
+		<h3 align="center">Multiplication of given numbers is</h3>
+		<p align="center" th:text="${calculate.Mul()}"></p>
+		
+		
+		<h3 align="center">Division of given numbers is</h3>
+		<p align="center" th:text="${calculate.Div()}"></p>
+		
+		<h3 align="center">Addition of given numbers is</h3>
+		<p align="center" th:text="${calculate.Sum()}"></p>
+		
+		<h3 align="center">Substraction of given numbers is</h3>
+		<p align="center" th:text="${calculate.Min()}"></p>
+		</div>
+</body>
+</html>
